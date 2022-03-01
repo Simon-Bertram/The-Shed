@@ -1,0 +1,28 @@
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+// Customize some defaults
+$body-color: #333;
+$body-bg: #fff;
+$border-radius: .4rem;
+$success: #7952b3;
+
+@import './vendors/bootstrap';
+
+//
+// Custom styles
+//
+
+@import "icon-list";
+
+body {
+  padding: 1.5rem;
+}
+
+// Style Bootstrap icons
+.bi {
+  fill: currentColor;
+}
