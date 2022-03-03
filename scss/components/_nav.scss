@@ -1,0 +1,32 @@
+@import '../abstracts/variables';
+@import "bootstrap/scss/functions";
+
+.main-nav {
+  color: $secondary;
+}
+
+.nav-link {
+  color: $white;
+
+  .active {
+    color: $primary;
+  }
+}
+
+.navbar-brand {
+  width: 100%;
+  text-align: center;
+
+  h1 {
+    line-height: 2;
+  }
+}
+
+.navbar-toggler {
+  color: $white;
+
+  &:focus,
+  &:hover {
+    box-shadow: 0 0 0 0.05rem;
+  }
+}
