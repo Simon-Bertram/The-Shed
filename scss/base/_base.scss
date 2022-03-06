@@ -4,7 +4,34 @@ body {
   padding: 0;
 }
 
+header {
+  @include gradient-y($start-color: rgba(#000, 0.1), $end-color: rgba(white, 0), $start-percent: 50%, $end-percent: 100%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
 hr {
   width: 75px;
-  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+.nav-link {
+
+  a {
+    color: $primary;
+    padding: 1rem;
+
+    &:hover {
+      color: #000;
+    }
+  }
+  
 }

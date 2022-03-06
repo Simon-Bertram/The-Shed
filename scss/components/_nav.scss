@@ -1,16 +1,38 @@
 @import '../abstracts/variables';
 @import "bootstrap/scss/functions";
 
-.main-nav {
-  color: $secondary;
+
+.nav-item {
+  position: relative;
+  // background-color: rgba($color: #000000, $alpha: 0.05);
+  // @include gradient-radial($inner-color: $gray-700, $outer-color: $gray-800);
+  // @include gradient-y($start-color: rgba($gray-700, 0.2), $end-color: $gray-800, $start-percent: 50%, $end-percent: 100%);
 }
 
 .nav-link {
-  color: $white;
 
-  .active {
+  a {
     color: $primary;
+    padding: 1rem;
+
+    &:hover {
+      color: #000;
+    }
+
+    active {
+      text-decoration: underline;
+    }
   }
+  
+}
+
+.nav-link .active::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 10px;
+  border: solid 1px white;
+  position: absolute;
 }
 
 .navbar-brand {

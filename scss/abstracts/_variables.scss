@@ -5,6 +5,11 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+// Customize some defaults
+$body-color: #fff;
+// $body-bg: #fff;
+$border-radius: .4rem;
+
 // Color system
 
 // scss-docs-start gray-color-variables
@@ -342,7 +347,7 @@ $escaped-characters: (
 $enable-caret:                true !default;
 $enable-rounded:              true !default;
 $enable-shadows:              false !default;
-$enable-gradients:            false !default;
+$enable-gradients:            true;
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
 $enable-smooth-scroll:        true !default;
@@ -1644,9 +1649,18 @@ $pre-color:                         null !default;
 
 
 // Nav customization
+$nav-link-color:                    $primary;
+$nav-link-hover-color:              $secondary;
+
 $navbar-dark-color:                 $white;
-$navbar-dark-hover-color:           rgba($white, .5) !default;
-$navbar-dark-active-color:          $white !default;
+$navbar-dark-hover-color:           $primary;
+$navbar-dark-active-color:          $blue-200;
 $navbar-dark-disabled-color:        rgba($white, .25) !default;
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-dark-toggler-border-color:  rgba($white, .1) !default;
+
+$navbar-nav-link-padding-x:         1rem;
+
+$primary-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+$white-overlay: rgba(255, 255, 255, 0.7);
+$primary-border: 2px solid white;

@@ -1,0 +1,3 @@
+.submit-btn {
+  @include button-variant(white, white, $hover-background: $primary, $hover-border: $success);
+}

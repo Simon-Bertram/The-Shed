@@ -9,27 +9,25 @@ $enable-shadows: true;
 
 $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 
-// Customize some defaults
-$body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
-
 // Vendor
 @import './vendors/bootstrap';
 
 // Base styles
 @import './base/base';
+@import './base/typography';
 
 // Components
 @import './components/nav';
+@import './components/forms';
+@import './components/buttons';
+
+// Layouts
+// this holds general structure-based stuff like our header. a footer could live here, too
+@import './layouts/layout';
 
 //
 // Custom styles
 //
-
-.main-nav a {
-  color: $gray-900;
-}
 
 @import "icon-list";
 
@@ -37,3 +35,4 @@ $border-radius: .4rem;
 .bi {
   fill: currentColor;
 }
+
