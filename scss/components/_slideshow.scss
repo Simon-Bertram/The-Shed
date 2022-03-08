@@ -1,0 +1,77 @@
+/* Position the slide container (needed to position the left and right arrows) */
+.slide-container {
+  position: relative;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.slide {
+  display: none;
+  height: 300px;
+
+  img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+  }
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.material-option {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+
+  img {
+    max-width: 100%;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
+
+.active,
+.thumbnail img:hover {
+  opacity: 1;
+}

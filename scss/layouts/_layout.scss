@@ -1,9 +1,5 @@
 @import '../abstracts/variables';
 
-header {
-  margin-bottom: $spacer * 5;
-}
-
 .info-box {
   width: 70%;
   max-width: 400px;
@@ -33,4 +29,93 @@ header {
     }
   }
   
+}
+
+// Furniture page
+/*-------------------------------------------------------------*/
+
+.furniture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// .main-heading {
+//   text-align: center;
+//   @extend .mt-4;
+// }
+
+.furniture-card {
+  width: 85%;
+  margin: auto;
+  @extend .mt-4;
+  @extend .mb-5;
+
+  .img-container {
+    width: 100%;
+    height: 0;
+    padding-top: calc(100% * (3 / 4));
+    position: relative;    
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .furniture {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(500px);
+
+    .furniture-card {
+      align-self: start;
+    }
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .furniture {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// Materials page
+/*-------------------------------------------------------------*/
+
+.material-option {
+  @extend .my-4;
+  @extend .p-4;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.thumbnail {
+  width: 100%;
+  height: 150px;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+footer {
+  @extend .py-3;
 }

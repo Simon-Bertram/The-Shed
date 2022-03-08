@@ -1653,8 +1653,8 @@ $nav-link-color:                    $primary;
 $nav-link-hover-color:              $secondary;
 
 $navbar-dark-color:                 $white;
-$navbar-dark-hover-color:           $primary;
-$navbar-dark-active-color:          $blue-200;
+$navbar-dark-hover-color:           $blue-100;
+$navbar-dark-active-color:          $white;
 $navbar-dark-disabled-color:        rgba($white, .25) !default;
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-dark-toggler-border-color:  rgba($white, .1) !default;

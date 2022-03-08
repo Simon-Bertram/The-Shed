@@ -19,20 +19,27 @@
       color: #000;
     }
 
-    active {
+    .active {
       text-decoration: underline;
     }
   }
   
 }
 
-.nav-link .active::after {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 10px;
-  border: solid 1px white;
-  position: absolute;
+.nav-link {
+
+  .active {
+
+      text-decoration: underline;
+      text-underline-offset: 5px;
+    
+  }
+  // display: block;
+  // content: "";
+  // width: 50px;
+  // height: 10px;
+  // border: solid 1px white;
+  // position: absolute;
 }
 
 .navbar-brand {
