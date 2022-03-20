@@ -24,6 +24,8 @@ hr {
 }
 
 .overlay-container {
+  @extend .px-3;
+  @extend .py-5;
   text-align: center;
   background-color: $white-overlay;
   border-radius: 6px;
