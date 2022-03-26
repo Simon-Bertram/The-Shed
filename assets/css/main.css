@@ -9114,9 +9114,9 @@ hr {
 }
 
 .overlay-container {
-  text-align: center;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 6px;
+  max-width: 90ch;
 }
 
 p {
@@ -9366,6 +9366,7 @@ p {
   flex-direction: column;
   margin: auto;
   margin-bottom: 5rem;
+  padding: 1rem;
 }
 
 .thumbnails {
