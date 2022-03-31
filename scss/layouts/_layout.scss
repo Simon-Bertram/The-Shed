@@ -1,5 +1,8 @@
 @import '../abstracts/variables';
 
+// Home page
+/*-------------------------------------------------------------*/
+
 .info-box {
   width: 70%;
   max-width: 400px;
@@ -35,6 +38,10 @@
   margin: 0 auto;
   max-width: 70ch;
   text-align: left;
+}
+
+.success {
+  display: none;
 }
 
 // Furniture page
@@ -116,19 +123,6 @@
     object-fit: cover;
   }
 }
-
-// Blog page
-/*-------------------------------------------------------------*/
-
-// .blog-post {
-//   margin: 0 auto;
-//   text-align: left;
-
-//   .blog-container {
-//     margin: 0 auto;
-//     max-width: 70ch;
-//   }
-// }
 
 footer {
   @extend .py-3;
