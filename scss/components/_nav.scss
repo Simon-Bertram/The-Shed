@@ -1,4 +1,4 @@
-@import '../abstracts/variables';
+@import "../abstracts/variables";
 @import "bootstrap/scss/functions";
 
 
@@ -12,8 +12,8 @@
 .nav-link {
 
   a {
-    color: $primary;
     padding: 1rem;
+    color: $primary;
 
     &:hover {
       color: #000;
@@ -24,23 +24,6 @@
       text-underline-offset: 0.5rem;
     }
   }
-  
-}
-
-.nav-link {
-
-  .active {
-
-      text-decoration: underline;
-      text-underline-offset: 5px;
-    
-  }
-  // display: block;
-  // content: "";
-  // width: 50px;
-  // height: 10px;
-  // border: solid 1px white;
-  // position: absolute;
 }
 
 .navbar-brand {

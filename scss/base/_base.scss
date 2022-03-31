@@ -1,7 +1,7 @@
 body {
-  background: url(../../assets/img/background/leather-768245_1920.jpg) no-repeat center center fixed;
-  background-size: cover;
   padding: 0;
+  background: url('../../assets/img/background/leather-768245_1920.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 header {
@@ -9,9 +9,9 @@ header {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
 ul {
@@ -26,7 +26,7 @@ hr {
 .overlay-container {
   @extend .px-3;
   @extend .py-5;
+  max-width: 90ch;
   background-color: $white-overlay;
   border-radius: 6px;
-  max-width: 90ch;
 }

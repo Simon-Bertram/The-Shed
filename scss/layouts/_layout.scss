@@ -1,4 +1,4 @@
-@import '../abstracts/variables';
+@import "../abstracts/variables";
 
 // Home page
 /*-------------------------------------------------------------*/
@@ -6,22 +6,22 @@
 .info-box {
   width: 70%;
   max-width: 400px;
-  margin: 0 auto;
   padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: $spacer * 4;
   text-align: center;
   border: 2px solid white;
   box-shadow: $primary-box-shadow;
-  margin-bottom: $spacer * 4;
   background-color: rgba($color: #000000, $alpha: 0.15);
 }
 
 .social-links {
 
   ul {
-    max-width: 250px;
-    margin: 0 auto;
-    padding: 0;
     display: flex;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 250px;    
     justify-content: space-around;
   }
   .social-icon {
@@ -35,8 +35,8 @@
 }
 
 .inner-container {
-  margin: 0 auto;
   max-width: 70ch;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -62,11 +62,11 @@
   .img-container {
     width: 100%;
     height: 0;
-    padding-top: calc(100% * (3 / 4));
-    position: relative;    
-    border-radius: 2px;
+    position: relative; 
+    padding-top: calc(100% * (3 / 4));   
     margin-bottom: 1rem;
     overflow: hidden;
+    border-radius: 2px;
   }
 
   img {
@@ -111,9 +111,9 @@
 }
 
 .thumbnail {
+  position: relative;
   width: 100%;
   height: 150px;
-  position: relative;
 
   img {
     position: absolute;

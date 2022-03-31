@@ -20,18 +20,19 @@
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 28px;
-  border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  font-weight: bold;
+  color: white;
+  
+  font-size: 28px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
 }
 
 /* Position the "next button" to the right */
@@ -47,12 +48,12 @@
 }
 
 .material-option {
-  max-width: 700px;
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 5rem;
   padding: 1rem;
+  margin-bottom: 5rem;
+  max-width: 700px;
 }
 
 .thumbnails {
