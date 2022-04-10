@@ -1,0 +1,30 @@
+{
+  "name" : "The Shed Upholstery Listing Data",
+    "version" : "1.0",
+    "products" : [
+        {
+            "prod_name" : "A",
+            "prod_id" : "V-A1037",
+            "retail_price" : 44.99,
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "in_stock" : true,
+            "photo_src" : "assets/img/lookbook/"
+        },
+        {
+          "prod_name" : "A",
+          "prod_id" : "V-A1037",
+          "retail_price" : 44.99,
+          "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "in_stock" : true,
+          "photo_src" : "assets/img/lookbook/"
+      },
+      {
+        "prod_name" : "A",
+        "prod_id" : "V-A1037",
+        "retail_price" : 44.99,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "in_stock" : true,
+        "photo_src" : "assets/img/lookbook/"
+      }
+    ]
+}
