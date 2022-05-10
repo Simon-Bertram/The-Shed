@@ -1,4 +1,9 @@
 .contact-form {
+  fieldset {
+    margin: 2em;
+    padding: 1em 2em;
+  }
+
   .form-group {
     margin-bottom: $spacer * 2;
   }
@@ -11,4 +16,24 @@
   .form-control {
     width: 100%;
   }
+
+  label, .checks {
+    display: block;
+    padding-top: .5em;
+    margin-top: 1em;
+  }
+
+  label:first-of-type {
+      border:none;
+      margin-top: 0;
+  }
+
+
+  input, textarea {
+      display: block;
+      border: solid 1px #999;
+      padding: 4px;
+      margin-top: 12px;
+  }
 }
+
