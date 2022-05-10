@@ -9263,6 +9263,10 @@ p {
   box-shadow: 0 0 0 0.05rem;
 }
 
+.contact-form fieldset {
+  margin: 2em;
+  padding: 1em 2em;
+}
 .contact-form .form-group {
   margin-bottom: 2rem;
 }
@@ -9272,6 +9276,21 @@ p {
 }
 .contact-form .form-control {
   width: 100%;
+}
+.contact-form label, .contact-form .checks {
+  display: block;
+  padding-top: 0.5em;
+  margin-top: 1em;
+}
+.contact-form label:first-of-type {
+  border: none;
+  margin-top: 0;
+}
+.contact-form input, .contact-form textarea {
+  display: block;
+  border: solid 1px #999;
+  padding: 4px;
+  margin-top: 12px;
 }
 
 .submit-btn {
